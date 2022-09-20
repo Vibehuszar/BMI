@@ -1,4 +1,4 @@
-# [Dani]
+# Dani
 
 ## Hogyan kezdj neki?
 
