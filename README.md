@@ -1,4 +1,4 @@
-# [Név]
+# [Dani]
 
 ## Hogyan kezdj neki?
 
