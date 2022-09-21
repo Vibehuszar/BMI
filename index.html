@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
 </head>
 <body>
-    WORKING....
+    <div class="form">
+        <label for="magassag">Írja be cm-ben számított testmagasságát (cipő nélkül mérve):</label>
+        <span class="jobb">
+            <input type="number" id="magassag" value="0">
+            <label>cm</label>
+        </span><br>
+        <label for="suly">Írja be kg-ben számított testsúlyát (cipő nélkül mérve):</label>
+        <span class="jobb">
+            <input type="number" id="suly" value="0">
+            <label >kg</label>
+        </span><br>
+        
+        
+        <button id="szamit">Számítás</button>
+    </div>
+        
+    
+    <h2>Az ön bmi értéke: <span id="bmi"></span> </h2>
+
+    <table id="table">
+        <tr id="elso">
+            <th>18,5 vagy kevesebb</th>
+            <td>sovány</td>
+        </tr>
+        <tr id="masodik"> 
+            <th>18,5 - 24,9</th>
+            <td>normál</td>
+        </tr>
+        <tr id="harmadik">
+            <th>25- 29,9</th>
+            <td>túlsúly</td>
+        </tr>
+        <tr id="negyedik">
+            <th>30 - 34,9</th>
+            <td>i.fokú elhízás</td>
+        </tr>
+        <tr id="otodik">
+            <th>35 - 39,9</th>
+            <td>ii.fokú elhízás</td>
+        </tr>
+        <tr id="hatodik">
+            <th>40 vagy több</th>
+            <td>iii.fokú elhízás</td>
+        </tr>
+    </table>
+
+    <h2>Az ideális tesstömege: <span></span> </h2>
 </body>
 </html>

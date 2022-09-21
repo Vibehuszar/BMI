@@ -1,0 +1,50 @@
+body{
+    margin: 20px;
+}
+
+table{
+    margin: auto;
+    font-size: 18px;
+    border-collapse: collapse;
+    line-height: 50px;
+    padding: 30x;
+    width: 30%;
+    
+    
+}
+
+.jobb{
+    float: right;
+}
+
+table td{
+    text-transform: uppercase ;
+}
+table tr{
+    border-bottom: 1px solid black;
+}
+
+table tr:nth-child(6){
+    border-bottom: none;
+}
+
+h2{
+    text-transform: uppercase;
+    color: orange;
+}
+
+
+
+.form{
+    margin: auto;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    line-height: 300%;
+    
+}
+
+#szamit{
+    color: orange;
+    font-size: 15x;
+}
